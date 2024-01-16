@@ -2,6 +2,8 @@ body {
     background-color: lightblue;
 }
 
-.text-center {
-    padding-top: 30px;
+.bg-hero-image {
+    background-color: rgba(229, 196, 196, 0.899);
+    background-position: center center;
+    padding-top: 100px;
 }
