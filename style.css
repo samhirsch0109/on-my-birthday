@@ -1,9 +1,16 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(148, 219, 243);
 }
 
 .bg-hero-image {
-    background-color: rgba(229, 196, 196, 0.899);
+    background-color: rgba(167, 143, 160, 0.899);
     background-position: center center;
-    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+h1.text-center {
+    padding-top: 50px;
 }
