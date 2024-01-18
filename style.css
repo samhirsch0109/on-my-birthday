@@ -3,14 +3,36 @@ body {
 }
 
 .bg-hero-image {
-    background-color: rgba(167, 143, 160, 0.899);
-    background-position: center center;
-    display: flex;
+    background-position: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 30px;
+    margin-bottom: 10px;
   }
 
 h1.text-center {
     padding-top: 50px;
 }
+
+h1.mb-3 {
+    color:pink;
+}
+
+h1.mb-3:hover {
+    color: white;
+
+}
+
+.bg-hero-image-baby {
+background-image: url("imgs/unnamed.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+}
+
+p.font {
+    text-align: center;
+    margin: auto;
+}
+
