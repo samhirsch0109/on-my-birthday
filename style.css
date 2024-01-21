@@ -8,14 +8,14 @@ body {
     justify-content: space-between;
     padding-top: 30px;
     margin-bottom: 10px;
-  }
+}
 
 h1.text-center {
     padding-top: 50px;
 }
 
 h1.mb-3 {
-    color:pink;
+    color: pink;
 }
 
 h1.mb-3:hover {
@@ -24,11 +24,11 @@ h1.mb-3:hover {
 }
 
 .bg-hero-image-baby {
-background-image: url("imgs/unnamed.jpg");
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 400px;
+    background-image: url("imgs/unnamed.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
 }
 
 p.font {
@@ -36,3 +36,14 @@ p.font {
     margin: auto;
 }
 
+.bg-hero-image-bday {
+    background-image: url("imgs/astronomy.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.button-container {
+    display: flex;
+  }
