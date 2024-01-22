@@ -48,3 +48,8 @@ p.font {
   h1 {
     font-family: 'Climate Crisis', sans-serif;
   }
+
+  button {
+    margin: auto;
+    text-align: center;
+  }
