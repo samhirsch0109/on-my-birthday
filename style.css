@@ -27,15 +27,16 @@ h1.mb-3:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+
 }
 
 .img-fluid {
     width: 400px;
-    height: 300px;
+    height: 350px;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 50px;
     margin: auto;
+    text-align: center;
 }
 
 p.font {
@@ -47,7 +48,6 @@ p.font {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
 }
 
 
@@ -55,13 +55,71 @@ p.font {
     font-family: 'Climate Crisis', sans-serif;
   }
 
-  button {
-    margin: auto;
-    text-align: center;
-    background-color: azure;
-  }
-
-
-button:hover {
-    background-color: blueviolet;
+.btn-info {
+    background-color: rgb(220, 200, 200);
+    font-family: 'Ubuntu', sans-serif;
+   border: 1px solid black;
 }
+
+.btn-info:hover {
+    background-color: rgb(52, 82, 147);
+    color: white;
+}
+
+
+.btn{
+    background-color: #fff;
+    padding: 0.8em 1.5em;
+    border-radius: 20em;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 100ms linear;
+    color: rgb(148, 219, 243);
+    position: relative;
+    box-shadow: inset 0 4px 6px -1px rgb(0 0 0 / 0.1), 
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.btn:active {
+    box-shadow: inset 0 0 0 4px #043b3f6b;
+}
+
+.btn::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    border-radius: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+    animation: flash 100ms ease-in-out;
+    transform: scaleX(2) scaleY(2);
+}
+
+.btn:hover::before {
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+}
+
+@keyframes flash {
+    0%{
+        opacity: 1;
+        transform: translate(45px);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0);
+    }
+}
+
+
+
+
