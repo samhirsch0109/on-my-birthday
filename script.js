@@ -1,9 +1,9 @@
 function year1861(){
     document.getElementById('response-text').innerText = '1861...'
-    document.getElementById('imageChange1').src = '';
+    document.getElementById('imageChange1').src = 'imgs/testing.jpg';
     document.getElementById('changeText').innerText = ''
     document.getElementById('changeText2').innerText = ''
-    document.getElementById('imageChange2').src = ''
+    document.getElementById('imageChange2').src = 'imgs/mississippi2.jpg'
 }
 
 
