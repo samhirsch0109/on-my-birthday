@@ -23,6 +23,10 @@ h1.mb-3:hover {
 
 }
 
+#response-text {
+    font-family: 'Lora';
+}
+
 .bg-hero-image-baby {
     background-position: center center;
     background-repeat: no-repeat;
@@ -56,19 +60,19 @@ p.font {
   }
 
 .btn-info {
-    background-color: rgb(220, 200, 200);
-    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lora';
    border: 1px solid black;
 }
 
 .btn-info:hover {
-    background-color: rgb(52, 82, 147);
+    background-color: rgb(123, 123, 172);
     color: white;
 }
 
 
 .btn{
-    background-color: #fff;
+    background-color: #eeeeee;
     padding: 0.8em 1.5em;
     border-radius: 20em;
     border: none;
@@ -92,7 +96,7 @@ p.font {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: rgb(155, 155, 196);
     position: absolute;
     border-radius: inherit;
     z-index: -1;
@@ -119,7 +123,3 @@ p.font {
         transform: translate(0);
     }
 }
-
-
-
-
