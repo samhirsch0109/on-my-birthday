@@ -119,11 +119,7 @@ p.font {
     }
 }
 
-<<<<<<< HEAD
 .btn1 {
-=======
-.btn1{
->>>>>>> d5105b32e897fe8429c7adfd50c9eb63507b1f11
     background-color: #eeeeee;
     padding: 0.8em 1.5em;
     border-radius: 20em;
@@ -137,9 +133,4 @@ p.font {
     box-shadow: inset 0 4px 6px -1px rgb(0 0 0 / 0.1), 
     0 2px 4px -2px rgb(0 0 0 / 0.1);
     font-family: 'Ubuntu', sans-serif;
-<<<<<<< HEAD
-
-=======
-    justify-content: center;
->>>>>>> d5105b32e897fe8429c7adfd50c9eb63507b1f11
 }
