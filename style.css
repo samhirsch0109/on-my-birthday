@@ -10,19 +10,6 @@ body {
     margin-bottom: 10px;
 }
 
-h1.text-center {
-    padding-top: 50px;
-}
-
-h1.mb-3 {
-    color: pink;
-}
-
-h1.mb-3:hover {
-    color: white;
-
-}
-
 #response-text {
     font-family: 'Lora';
 }
@@ -46,6 +33,7 @@ h1.mb-3:hover {
 p.font {
     text-align: center;
     margin: auto;
+    font-family: 'Bitter', sans-serif;
 }
 
 .bg-hero-image-bday {
@@ -84,7 +72,8 @@ p.font {
     position: relative;
     box-shadow: inset 0 4px 6px -1px rgb(0 0 0 / 0.1), 
     0 2px 4px -2px rgb(0 0 0 / 0.1);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lola', sans-serif;
+    margin-top: 30px;
 
 }
 
@@ -122,4 +111,21 @@ p.font {
         opacity: 0;
         transform: translate(0);
     }
+}
+
+.btn1{
+    background-color: #eeeeee;
+    padding: 0.8em 1.5em;
+    border-radius: 20em;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 100ms linear;
+    color: rgb(148, 219, 243);
+    position: relative;
+    box-shadow: inset 0 4px 6px -1px rgb(0 0 0 / 0.1), 
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
 }
