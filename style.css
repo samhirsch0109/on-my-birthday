@@ -122,7 +122,7 @@ p.font {
 .btn1 {
     background-color: #eeeeee;
     padding: 0.8em 1.5em;
-    border-radius: 20em;
+    border-radius: 5em;
     border: none;
     user-select: none;
     cursor: pointer;
