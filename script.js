@@ -31,3 +31,11 @@ function year2001() {
     document.getElementById('imageChange2').src = 'imgs/stevejobs.jpg'
 }
 
+function year2007() {
+    document.getElementById('response-text').innerText = '2007...'
+    document.getElementById('imageChange1').src = 'imgs/unnamed.jpg';
+    document.getElementById('changeText').innerText = 'I was born on January 9th, 2007, in New Brunswick, New Jersey. Click through to see what else happened on my birthday:'
+    document.getElementById('changeText2').innerText = 'Here are some pictures of me celebrating my birthday over the years. People celebrate their birthdays in different ways. Here are some pictures of me celebrating my birthday over the years. Birthday celebrations vary widely, with some opting for lively parties, dinners, and gift exchanges, while others prefer intimate gatherings or quiet reflections. Surprises, travel, and social media wishes also play a role. Some engage in charity work, while family time remains a cherished aspect of many celebrations. Ultimately, the diversity in birthday celebrations reflects individual choices and cultural influences.'
+    document.getElementById('imageChange2').src = 'imgs/me.png'
+}
+
