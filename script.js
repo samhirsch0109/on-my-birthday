@@ -1,3 +1,4 @@
+//changes everything for 1861 function
 function year1861() {
     document.getElementById('response-text').innerText = '1861...'
     document.getElementById('imageChange1').src = 'imgs/testing.jpg';
@@ -6,7 +7,7 @@ function year1861() {
     document.getElementById('imageChange2').src = 'imgs/mississippi2.jpg'
 }
 
-
+//function for year 1913
 function year1913() {
     document.getElementById('response-text').innerText = '1913...'
     document.getElementById('imageChange1').src = 'imgs/young_nixon.jpg';
@@ -15,6 +16,7 @@ function year1913() {
     document.getElementById('imageChange2').src = 'imgs/richard nixon.jpg'
 }
 
+//function for year 1982
 function year1982() {
     document.getElementById('response-text').innerText = '1982...'
     document.getElementById('imageChange1').src = 'imgs/katemiddleton.jpg';
@@ -23,6 +25,7 @@ function year1982() {
     document.getElementById('imageChange2').src = 'imgs/kateandwilliam.jpg'
 }
 
+//function for the year 2001
 function year2001() {
     document.getElementById('response-text').innerText = '2001...'
     document.getElementById('imageChange1').src = 'imgs/Unknown.jpeg';
@@ -31,6 +34,7 @@ function year2001() {
     document.getElementById('imageChange2').src = 'imgs/stevejobs.jpg'
 }
 
+//function for year 2007
 function year2007() {
     document.getElementById('response-text').innerText = '2007...'
     document.getElementById('imageChange1').src = 'imgs/unnamed.jpg';
